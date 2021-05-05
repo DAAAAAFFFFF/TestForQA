@@ -8,6 +8,6 @@ namespace MainApp.Models
     {
         public string FIO { get; set; }
         public int Age { get; set; }
-        public Dictionary<string, double> SubjectAssessment { get; set; }
+        public List<SubjectAssessmentModel> SubjectAssessment { get; set; }
     }
 }
